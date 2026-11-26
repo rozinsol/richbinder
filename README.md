@@ -4,6 +4,8 @@ RichBinder is a document binder app for Windows. Its built-in MCP server lets an
 
 This repository is the setup guide. It contains configuration examples and documentation only — no executable code.
 
+See it work: [RichBinder MCP demo on YouTube](https://youtu.be/Ymw58NCq_nE). The same demo in Japanese and Korean is in [this playlist](https://www.youtube.com/playlist?list=PLU77_AKSoUiY).
+
 ## Before you start
 
 1. Install RichBinder from the Microsoft Store on Windows 10 or 11: https://apps.microsoft.com/detail/9ndj4bjf44wg
@@ -88,6 +90,10 @@ Add this to `claude_desktop_config.json` (Settings → Developer → Edit Config
   }
 }
 ```
+
+Prefer not to edit the file? Install RichBinder as a Claude Desktop extension instead: download `richbinder-1.1.4.mcpb` from the [richbinder-plugin Releases](https://github.com/rozinsol/richbinder-plugin/releases) page, then open Claude Desktop, go to Settings > Extensions and drag the file onto that page. The extension is not signed, so Claude Desktop shows a warning that it is not verified by Anthropic. Install it only if you trust that repository. It needs the same things as above.
+
+For Claude Code there is also the [RichBinder plugin for Claude](https://github.com/rozinsol/richbinder-plugin).
 
 ### Cursor
 
